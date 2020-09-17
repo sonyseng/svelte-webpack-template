@@ -35,7 +35,6 @@ module.exports = (env) => {
     },
 
     resolve: {
-      modules: [path.resolve('./src'), path.resolve('./node_modules')],
       alias: {
         svelte: getPath('node_modules', 'svelte'),
         src: getPath('src')
