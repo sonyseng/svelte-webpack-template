@@ -1,0 +1,22 @@
+{
+  "tabWidth": 2,
+  "printWidth": 120,
+  "overrides": [
+    {
+      "files": "*.svelte",
+      "options": {
+        "parser": "svelte",
+        "svelteSortOrder": "scripts-markup-styles",
+        "svelteBracketNewLine": true,
+        "trailingComma": "none"
+      }
+    },
+    {
+      "files": ["*.js", "*.ts"],
+      "options": {
+        "trailingComma": "none",
+        "singleQuote": true
+      }
+    }
+  ]
+}
